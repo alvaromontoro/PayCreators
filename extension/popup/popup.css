@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.payment-methods {
+  margin: 0.5rem;
+  max-width: 250px;
+  width: max-content;
+}
+
+.message {
+  color: #666;
+  font-size: 1.125em;
+  margin: 1em 1em 1em 0;
+  white-space: pre-wrap;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 1.125rem;
+  font-weight: 400;
+  opacity: 0.8;
+  padding: 0.5rem;
+  color: green;
+}
+
+h1 span:last-child {
+  color: navy;
+}
+
+.payment-method {
+  align-items: center;
+  background-position: 0.5em 50%;
+  background-repeat: no-repeat;
+  background-size: 2em 2em;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  color: ButtonText;
+  display: flex;
+  font-size: 1.125em;
+  height: 3em;
+  margin-bottom: 0.5em;
+  padding: 0.5em 2em 0.5em 3em;
+  text-decoration: none;
+  white-space: pre;
+}
+
+.payment-method:last-child {
+  margin-bottom: 0;
+}
+
+.payment-method:hover {
+  background-color: #36f1;
+  border-color: #36f;
+}
+
+.payment-method.patreon { background-image: url(/images/services/patreon.webp); }
+.payment-method.paypal { background-image: url(/images/services/paypal.webp); }
+.payment-method.venmo { background-image: url(/images/services/venmo.webp); }
+.payment-method.buy-me-a-coffee { background-image: url(/images/services/buy-me-a-coffee.webp); }
+.payment-method.ko-fi { background-image: url(/images/services/ko-fi.webp); }
