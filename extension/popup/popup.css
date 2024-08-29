@@ -56,8 +56,11 @@ h1 span:last-child {
   border-color: #36f;
 }
 
+/* Logos for the payment methods */
+/* All logos are copyright reserved by their companies. */
+.payment-method.buy-me-a-coffee { background-image: url(/images/services/buy-me-a-coffee.webp); }
+.payment-method.crowdfundly { background-image: url(/images/services/crowdfundly.webp); }
+.payment-method.ko-fi { background-image: url(/images/services/ko-fi.webp); }
 .payment-method.patreon { background-image: url(/images/services/patreon.webp); }
 .payment-method.paypal { background-image: url(/images/services/paypal.webp); }
 .payment-method.venmo { background-image: url(/images/services/venmo.webp); }
-.payment-method.buy-me-a-coffee { background-image: url(/images/services/buy-me-a-coffee.webp); }
-.payment-method.ko-fi { background-image: url(/images/services/ko-fi.webp); }
