@@ -63,4 +63,5 @@ h1 span:last-child {
 .payment-method.ko-fi { background-image: url(/images/services/ko-fi.webp); }
 .payment-method.patreon { background-image: url(/images/services/patreon.webp); }
 .payment-method.paypal { background-image: url(/images/services/paypal.webp); }
+.payment-method.tipeee { background-image: url(/images/services/tipeee.webp); }
 .payment-method.venmo { background-image: url(/images/services/venmo.webp); }

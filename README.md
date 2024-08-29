@@ -28,6 +28,7 @@ For example, your `payments.json` file might look like this::
   "venmo": "Alvaro-Montoro",
   "ko-fi": "alvaromontoro",
   "buy-me-a-coffee": "alvaromontoro",
+  "tipeee": "comicss",
   "crowdfundly": "alvaromontoro"
 }
 ```

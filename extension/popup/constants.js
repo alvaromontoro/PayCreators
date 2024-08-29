@@ -26,6 +26,10 @@ export const SUPPORTED_METHODS = {
     name: "PayPal",
     url: "https://paypal.me/[ID]"
   },
+  "tipeee": {
+    name: "Tipeee",
+    url: "https://tipeee.com/[ID]"
+  },
   "venmo": {
     name: "Venmo",
     url: "https://venmo.com/u/[ID]"
