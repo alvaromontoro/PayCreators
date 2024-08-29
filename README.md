@@ -25,9 +25,14 @@ For example, your `payments.json` file might look like this::
 {
   "paypal": "alvaromontoro",
   "patreon": "alvaromontoro",
-  "venmo": "Alvaro-Montoro"
+  "venmo": "Alvaro-Montoro",
+  "ko-fi": "alvaromontoro",
+  "buy-me-a-coffee": "alvaromontoro",
+  "crowdfundly": "alvaromontoro"
 }
 ```
+
+> NOTE: The order of the payment methods will be preserved by the extension. Also, you don't need to have all the payment methods available. And if you add an incorrect one, it will be ignored.
 
 In the `<head>` section of your webpage, you would add the following meta tag:
 
